@@ -9,4 +9,9 @@
 | [eureka与zookeeper的比较](./eurekaandzookeeper/README.MD)|
 | [负载均衡](./loadbalance/README.MD)|
 | [声明式调用](./declareinvocation/README.MD)|
+| [springcloud组件中的重试机制](./retry/README.MD)|
+| [服务保障](./serviceassurance/README.MD)|
+| [为什么要使用断路器Hystrix？](./whyhystrix/README.MD)|
+| [服务雪崩](./serviceavalanche/README.MD)|
+| [网关服务](./gateway/README.MD)|
 

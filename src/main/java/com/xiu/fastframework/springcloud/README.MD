@@ -14,4 +14,6 @@
 | [为什么要使用断路器Hystrix？](./whyhystrix/README.MD)|
 | [服务雪崩](./serviceavalanche/README.MD)|
 | [网关服务](./gateway/README.MD)|
+| [配置中心](./configcenter/README.MD)|
+| [链路追踪](./linktotrack/README.MD)|
 

@@ -19,7 +19,7 @@ Feign的一个关键机制就是使用了动态代理.
 (3)Feign的动态代理会根据你在接口上的 @RequestMapping 等注解，来动态构造出你要请求的服务的地址
 
 (4)最后针对这个地址，发起请求、解析响应
-![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/feign.jpg)
+![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/feign.JPG)
 
 ## Feign 和 Ribbon 的区别？
 
@@ -46,7 +46,7 @@ Feign 采使用接口的方式，将需要调使用的其余服务的方法定�
 
 ## Feign 是怎么和 Ribbon、Eureka 整合的？
 
-![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/feignribbon.jpg)
+![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/feignribbon.JPG)
 
 (1)首先，用户调用 Feign 创建的动态代理
 

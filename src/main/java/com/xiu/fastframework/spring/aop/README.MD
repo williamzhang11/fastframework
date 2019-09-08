@@ -30,13 +30,19 @@ PointCut 是匹配 JoinPoint 的条件
 ## 什么是 Advice ？
 
 Advice ，通知。
+
 特定 JoinPoint 处的 Aspect 所采取的动作称为 Advice 。
+
 Spring AOP 使用一个 Advice 作为拦截器，在 JoinPoint “周围”维护一系列的拦截器。
 
 Before - 这些类型的 Advice 在 JoinPoint 方法之前执行，并使用 @Before 注解标记进行配置。
+
 After Returning - 这些类型的 Advice 在连接点方法正常执行后执行，并使用 @AfterReturning 注解标记进行配置。
+
 After Throwing - 这些类型的 Advice 仅在 JoinPoint 方法通过抛出异常退出并使用 @AfterThrowing 注解标记配置时执行。
+
 After Finally - 这些类型的 Advice 在连接点方法之后执行，无论方法退出是正常还是异常返回，并使用 @After 注解标记进行配置。
+
 Around - 这些类型的 Advice 在连接点之前和之后执行，并使用 @Around 注解标记进行配置。
 
 

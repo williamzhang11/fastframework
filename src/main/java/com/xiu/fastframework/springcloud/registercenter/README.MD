@@ -30,7 +30,7 @@
 
 客户端决定相应服务实例的网络位置，并且对请求实现负载均衡。并且对请求实现负载均衡。客户端查询服务注册表，然后使用
 负载均衡算法从中选择一个实例，发出请求。
-![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/register1.jpg)
+![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/register1.JPG)
 
 服务实例的网络位置在启动时被记录到服务注册中心，等实例终止时被删除。服务实例的注册信息通常使用心跳机制定期刷新。
 
@@ -47,7 +47,7 @@ Netflix Eureka是一个服务注册中心，为服务实例注册管理和查询
 
 ### 2. 服务端发现模式
 
-![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/findmodule1.jpg)
+![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/findmodule1.JPG)
 
 客户端通过负载均衡器向某个服务提出请求，负载均衡器查询服务注册表，并将请求转发到可用的服务实例。服务实例在服务注册中心
 注册和注销
@@ -75,7 +75,7 @@ delete请求或实例超时被移除。客户端能够使用HTTP GET 请求检�
 Eureka 客户端，包括服务和服务客户端，查询 DNS 去发现 Eureka 服务的网络地址。客户端首选同一域
 内的 Eureka 服务。然而，如果没有可用服务，客户端会使用其它可用域中的 Eureka 服务
 
-![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/eureka.jpg)
+![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/eureka.JPG)
 
 
 ![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/eurekaframe.jpg)

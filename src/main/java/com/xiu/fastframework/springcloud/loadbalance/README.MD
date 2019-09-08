@@ -29,7 +29,7 @@
 
 无论是硬件负载均衡还是软件负载均衡，它的工作原理都不外乎下面这张图
 
-![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/loadbalance1.jpg)
+![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/loadbalance1.JPG)
 
 无论是硬件负载均衡还是软件负载均衡都会维护一个可用的服务端清单，然后通过心跳机制来删除故障的服务端节点
 以保证清单中都是可以正常访问的服务端节点，此时当客户端的请求到达负载均衡服务器时，负载均衡服务器按照
@@ -56,7 +56,7 @@
 
 Spring Cloud Ribbon 是一个基于 HTTP 和 TCP 的客户端负载均衡工具，它基于 Netflix Ribbon 实现。通过 Spring Cloud 的封装，可以让我们轻松地将面向服务的 REST 模版请求自动转换成客户端负载均衡的服务调用。
 
-![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/ribbonloadbalance.jpg)
+![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/ribbonloadbalance.JPG)
 
 上图，关键点就是将外界的 rest 调用，根据负载均衡策略转换为微服务调用
 

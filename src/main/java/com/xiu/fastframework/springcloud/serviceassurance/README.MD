@@ -21,7 +21,7 @@ Hystrix
 作用：断路器，保护系统，控制故障范围。
 简介：Hystrix 是一个延迟和容错库，旨在隔离远程系统，服务和第三方库的访问点，当出现故障是不可避免的故障时，停止级联故障并在复杂的分布式系统中实现弹性。
 
-![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/hystrix.JPG)
+![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/hystrix.jpg)
 
 ## Hystrix 隔离策略？
 Hystrix 有两种隔离策略：
@@ -43,7 +43,7 @@ Hystrix 有两种隔离策略：
 
 1、线程池
 
-![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/threadpoolisolation.JPG)
+![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/threadpoolisolation.jpg)
 
 上图的左边2/3是线程池资源隔离示意图，右边的1/3是信号量资源隔离示意图，我们先来看左边的示意图。
 

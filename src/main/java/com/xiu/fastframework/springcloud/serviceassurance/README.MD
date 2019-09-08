@@ -32,7 +32,7 @@ Hystrix 有两种隔离策略：
 ### 我们为什么需要资源隔离
 
 在一个分布式系统中，服务之间都是相互调用的，如下图所示：
-![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/whyresourceisolation.jpg)
+![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/whyresourceisolation.JPG)
 
 例如，我们容器(Tomcat)配置的线程个数为1000，服务A-服务R，其中服务I的并发量非常的大，需要500个线程来执
 行，此时，服务I又挂了，那么这500个线程很可能就夯死了，那么剩下的服务，总共可用的线程为500个，随着并发量的
@@ -43,7 +43,7 @@ Hystrix 有两种隔离策略：
 
 1、线程池
 
-![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/threadpoolisolation.jpg)
+![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/threadpoolisolation.JPG)
 
 上图的左边2/3是线程池资源隔离示意图，右边的1/3是信号量资源隔离示意图，我们先来看左边的示意图。
 

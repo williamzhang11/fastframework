@@ -123,8 +123,11 @@ public class AccessUserNameFilter extends ZuulFilter {
 在zuul中定义了四种不同生命周期的过滤器类型，具体如下：
 
 pre：可以在请求被路由之前调用
+
 route：在路由请求时候被调用
+
 post：在route和error过滤器之后被调用
+
 error：处理请求时发生错误时被调用
 
 Zuul的主要请求生命周期包括“pre”，“route”和“post”等阶段。对于每个请求，都会运行具有这些类型的所有过滤器。

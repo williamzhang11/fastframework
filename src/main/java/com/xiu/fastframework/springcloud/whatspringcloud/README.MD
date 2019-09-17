@@ -20,7 +20,7 @@ Spring Cloud ，关注全局的服务治理框架。
 
 # Spring Cloud 有哪些组件？
 
-![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/springcloud.jpg)
+![image](https://github.com/williamzhang11/fastframework/blob/master/src/main/java/com/xiu/fastframework/image/springcloud.JPG)
 
 最为熟知的，可能就是 Spring Cloud Netflix ，它是 Netflix 公司基于它们
 自己的 Eureka、Hystrix、Zuul、Ribbon 等组件，构建的一个 Spring Cloud 实现技术栈
